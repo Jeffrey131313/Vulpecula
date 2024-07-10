@@ -1,4 +1,8 @@
 name: Workflow Build
+
+on:
+  workflow_dispatch:
+    fork: [ v2 ]
 jobs:
   build:
     runs-on: ubuntu-latest
